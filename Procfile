@@ -1,2 +1,2 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* edu.escuelaing.nanosparkweb.NanoSparkServer
+web: java $JAVA_OPTS -cp target/classes:target/dependency/* edu.escuelaing.nanosparkweb.NanoSparkWebDemo
 
