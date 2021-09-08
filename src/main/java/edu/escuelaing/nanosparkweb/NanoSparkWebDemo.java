@@ -1,5 +1,4 @@
 package edu.escuelaing.nanosparkweb;
-import edu.escuelaing.database.DataBaseConnector;
 import static edu.escuelaing.nanosparkweb.NanoSpark.*;
 
 /**
