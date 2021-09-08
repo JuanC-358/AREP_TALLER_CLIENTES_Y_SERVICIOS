@@ -6,6 +6,8 @@
     <groupId>co.edu.escuelaing</groupId>
     <artifactId>NanoSpark</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <name>Web</name>
+  <url>http://maven.apache.org</url>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
