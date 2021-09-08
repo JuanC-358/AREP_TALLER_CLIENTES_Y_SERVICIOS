@@ -9,3 +9,6 @@ Escriba un servidor web que soporte múlltiples solicitudes seguidas (no concurr
 ![img/Captura3.PNG](img/Captura3.PNG)
 ### Consultando Recursos
 ![img/Captura4.PNG](img/Captura4.PNG)
+## TEST
+![img/Captura5.PNG](img/Captura5.PNG)
+![img/Captura6.PNG](img/Captura6.PNG)
