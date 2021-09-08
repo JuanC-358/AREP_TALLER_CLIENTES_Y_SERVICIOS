@@ -117,7 +117,7 @@ public class HttpServer {
         if(resource.contains("js")){
             getResource("/src/main/resources/static/"+resource, clientSocket.getOutputStream(), "json");
         }
-        if(resource.contains("png")){
+        if(resource.contains("jpg")){
             getImagen("/src/main/resources/static/"+resource,clientSocket.getOutputStream());
         }
     }
@@ -158,7 +158,7 @@ public class HttpServer {
             DataOutputStream out = new DataOutputStream(outputStream);
             ImageIO.write(image, "PNG", ArrBytes);
             out.writeBytes("HTTP/1.1 200 OK \r\n"
-                    + "Content-Type: image/png \r\n"
+                    + "Content-Type: image/jpg \r\n"
                     + "\r\n");
             out.write(ArrBytes.toByteArray());
         } catch (IOException e) {
